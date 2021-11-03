@@ -20,6 +20,16 @@
     line-height: 44px;
 }
 
+.searchBtn {
+    height: 45px;
+    width: 100px;
+    margin-left: -1px;
+    font-weight: 600;
+    background: red;
+    color: white;
+    border: 2px solid red;
+}
+
 .navbar-brand hover {
     color: black;
 }

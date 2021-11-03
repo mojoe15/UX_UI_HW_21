@@ -17,11 +17,9 @@
         <title>Tips and Tricks</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html"
-                    >Fastlane Hobby Shop</a
-                >
+                <a class="navbar-brand" href="/index.html">Fastlane Hobby Shop</a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -47,12 +45,10 @@
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/showroom.html"
-                                >Showroom</a
-                            >
+                            <a class="nav-link" href="/showroom.html">Showroom</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact us</a>
+                            <a class="nav-link" href="#footer">Contact us</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a
@@ -93,13 +89,15 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <input
-                            class="px-2 search"
-                            type="search"
+                        <form class="d-flex">
+                            <input
+                            type="text"
+                            class="px-3"
                             placeholder="Search"
-                            aria-label="Search"
                         />
-                        <button class="btn0" type="submit">Search</button>
+                        <button class="searchBtn">Search</button>
+                        </form>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -191,7 +189,7 @@
             </div>
         </section>
 
-        <section class="news py-5">
+        <section id="footer" class="news py-5">
             <div class="container py-5">
                 <div class="row">
                     <div class="col-lg-9 m-auto text-center">
@@ -206,21 +204,21 @@
                 </div>
                 <div class="row py-4">
                     <div class="col-lg-10 m-auto">
-                        <div class="row py-3">
-                            <div class="col-lg-3 m-auto">
+                        <div class="row my-3 align-top">
+                            <div class="col-lg-3 mx-auto">
                                 <h5 class="pb-3">Customer Care</h5>
                                 <p>About Us</p>
                                 <p>Return Policy</p>
                                 <p>Shipping and Handling</p>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-3 mx-auto">
                                 <h5 class="pb-3">Contact us</h5>
                                 <h6>Fastlane Hobby Shop</h6>
                                 <p>1245 Watchout Way</p>
                                 <p>Tampa, Fl 33578</p>
                                 <p>(813)136-1865</p>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-3 mx-auto">
                                 <h5 class="pb-3">Keep up with us</h5>
                                 <span><i class="fab fa-facebook"></i></span>
                                 <span><i class="fab fa-instagram"></i></span>
